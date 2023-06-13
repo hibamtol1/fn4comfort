@@ -1,0 +1,9 @@
+create or replace FUNCTION FN_KOREA_DATE
+    RETURN date
+IS
+   v_date date;
+BEGIN
+  v_date := current_date + 9/24;
+RETURN v_date;
+END;
+/

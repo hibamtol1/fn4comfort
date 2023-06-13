@@ -1,6 +1,0 @@
-create or replace function get_korean_date (
-
-)
-  begin
-  end;
-return get_korean_date;
